@@ -9,4 +9,3 @@ def roman_to_int(roman_string):
         n = d[a]
         m += n if m < n * 5 else -n
     return m
-
